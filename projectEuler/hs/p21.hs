@@ -3,12 +3,9 @@
   @ https://projecteuler.net/problem=21
 -}
 
-factorsOf :: Integral a => a -> [a]
-factorsOf x = [ y | y <- l, x `mod` y == 0 ] 
-  where l = [ 1 .. x - 1 ]
-
 d :: Integral a => a -> a
-d x = sum (factorsOf x)
+d x = sum [ y | y <- l, x `mod` y == 0 ] 
+  where l = [ 1 .. x - 1 ]
 
 beAmicable :: Integral a => a -> Bool
 beAmicable x = (x /= d x) && (x == d (d x))
