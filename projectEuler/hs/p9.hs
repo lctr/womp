@@ -13,3 +13,5 @@ pythagoreanTriplets n = product . triplet $ ab
     formTriplet a b n = a < b && a + b + sqrt (a^2 + b^2) == n
     triplet [(a, b)] = [a, b, sqrt (a^2 + b^2)]
 
+main :: IO Double
+main = return . pythagoreanTriplets $ 1000
