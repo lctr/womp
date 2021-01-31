@@ -1,5 +1,5 @@
 {-
-  PROJECT EULER -- PROBLEM 2-: FACTORIAL DIGIT SUM
+  PROJECT EULER -- PROBLEM 20: FACTORIAL DIGIT SUM
   @ https://projecteuler.net/problem=8
 -}
 
