@@ -3,8 +3,8 @@
   @ https://projecteuler.net/problem=9
 -}
 
--- a + b + c = 1000, a^2 + b^2 = c^2
--- a + b + sqrt(a^2 + b^2)
+-- given: a + b + c = 1000, a^2 + b^2 = c^2, a < b
+-- then: a + b + c = a + b + sqrt(a^2 + b^2)
 pythagoreanTriplets :: (Ord c, Enum c, Floating c) => c -> c
 pythagoreanTriplets n = product . triplet $ ab
   where 
