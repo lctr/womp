@@ -1,0 +1,45 @@
+<script>
+  class Pane {
+    constructor(id) {
+      this.id = id;
+    }
+    get pane() {
+      let pane = document.querySelector(`#${this.id}`);
+      return pane; 
+    }
+    set contents(data) {
+      this.data = data;
+      this.render();
+    }
+    update(data) {
+      let [head, ...body] = data;
+      let wrap = (tag, str) => `<${tag}>${str}<${'/'}${tag}>`;
+      let theads = wrap('tr', head.map(x => wrap('th', x)).join(''));
+      let trows = body.map(x => wrap('tr', x.map(y => wrap('td', y)).join('')));
+      let html = `<table>
+          <tbody>
+            ${theads}
+            ${trows}
+          </tbody>
+        </table>`;
+      this.contents = html;
+    }
+    render() {
+      let contents = this.data;
+      let target = document.querySelector(`#${this.id} .pane-content`);
+      target.innerHTML = contents;
+    }
+  }
+
+  var lexicon = new Pane("lexicon");
+
+  google.script.run
+    .withSuccessHandler((words) => {
+      console.log('Server call succeeded');
+      lexicon.update(words);
+    }).withFailureHandler((err) => {
+      alert(`Server call failed: ${err}`);
+      console.log('Server call failed:', err);
+    }).getWords();
+
+</script>

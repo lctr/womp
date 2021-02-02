@@ -15,4 +15,15 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"Project Euler question text": {
+		"scope": "haskell",
+		"prefix": "projEulerNum",
+		"body": [
+			"{-",
+			"  PROJECT EULER -- PROBLEM $1: ${2:problem name}",
+			"  @ https://projecteuler.net/problem=$1",
+			"-}"
+		],
+		"description": "Template text to add as comments to project euler problems in Haskell"
+	}
 }
