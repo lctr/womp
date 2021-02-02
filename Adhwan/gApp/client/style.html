@@ -81,6 +81,27 @@ button.violet-bg:hover {
   --bg-color: var(--red1);
 }
 
+#pane-bar {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  position: fixed; 
+  align-items: center; 
+  box-shadow: 0 0 5px #666;
+  backdrop-filter: blur(2px);
+  background-image: linear-gradient(rgba(67, 67, 67, 1), 10%, rgba(67, 67, 67, 0.85));
+}
+
+#pane-bar div {
+  color: #fff;
+}
+
+#active-panes {
+  display: flex;
+  flex: 1 1 auto;
+}
+
 .pane-wrapper {
   display: grid;
   margin-top: 10;
