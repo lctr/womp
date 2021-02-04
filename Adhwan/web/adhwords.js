@@ -1,3 +1,5 @@
+// TODO: refactor 
+// TODO: look into streaming file updates for performance
 
 const fs = require('fs');
 const file = './adhwords.json';
@@ -5,7 +7,6 @@ const when = () => new Date().toUTCString();
 const normStr = (str = '') => str.trim().toLowerCase();
 
 function adhEntry(req, resp) {
-  let body = req.body
   console.log('Adhwan:', req.body.adhwan);
   console.log('Part of Speech:', req.body.pos);
   console.log('English:', req.body.english);
