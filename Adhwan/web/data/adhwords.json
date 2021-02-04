@@ -1,0 +1,28 @@
+{
+  "description": "Adhwords -- a simple adhwan dictionary",
+  "wordCount": 2,
+  "history": {
+    "created": "Thu, 04 Feb 2021 00:50:11 GMT",
+    "modified": "Thu, 04 Feb 2021 06:14:46 GMT",
+    "recentAddition": {
+      "adhwan": "mimha",
+      "pos": "noun",
+      "english": "cat",
+      "notes": ""
+    }
+  },
+  "lexicon": [
+    {
+      "adhwan": "mys",
+      "pos": "verb",
+      "english": "to see",
+      "notes": ""
+    },
+    {
+      "adhwan": "mimha",
+      "pos": "noun",
+      "english": "cat",
+      "notes": ""
+    }
+  ]
+}

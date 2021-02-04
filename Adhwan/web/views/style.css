@@ -14,11 +14,18 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f3f6f9;
   margin-top: 40px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 * {
   box-sizing: border-box;
+}
+
+input {
+  border-radius: 3px;
+  border: 1px solid; 
+  padding: 3px 6px; 
+  justify-self: stretch;
 }
 
 button {
@@ -72,15 +79,15 @@ button.violet-bg:hover {
   text-shadow: 0 1px 1px #79778d;
 }
 
-.blue1 {
+.blue1, .pane-wrapper[data-color='blue'] {
   --bg-color: var(--blue1);
 }
 
-.red1 {
+.red1, .pane-wrapper[data-color='red'] {
   --bg-color: var(--red1);
 }
 
-.green1 {
+.green1, .pane-wrapper[data-color='green'] {
   --bg-color: var(--green1);
 }
 
@@ -92,6 +99,7 @@ button.violet-bg:hover {
   height: 3em; 
   display: flex;
   position: fixed; 
+  column-gap: 0.75em;
   align-items: center; 
   box-shadow: 0 0 5px #666;
   backdrop-filter: blur(2px);
@@ -101,13 +109,18 @@ button.violet-bg:hover {
 #pane-bar div {
   color: #fff;
   padding: 4px 4px; 
+  column-gap: 0.75em;
 }
 
-#active-panes {
+#pane-bar button {
+  margin: 0 0.375em; 
+}
+
+.active-panes {
   margin-top: 3.75em; 
   display: flex;
   flex: 1 1 auto;
-  grid-gap: 0.75em;
+  gap: 0.75em;
   align-items: start;
 }
 

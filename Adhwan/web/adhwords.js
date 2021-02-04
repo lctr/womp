@@ -2,7 +2,8 @@
 // TODO: look into streaming file updates for performance
 
 const fs = require('fs');
-const file = './adhwords.json';
+
+const FILE = './data/adhwords.json';
 const when = () => new Date().toUTCString();
 const normStr = (str = '') => str.trim().toLowerCase();
 
@@ -33,7 +34,7 @@ function initialize(baseEntry) {
   const { entry, valid } = baseEntry;
   let api = {
     description: 'Adhwords -- a simple adhwan dictionary',
-    wordCount: 0,
+    wordCount: valid ? 1 : 0,
     history: {
       created: when(),
       modified: valid ? when() : '',
@@ -66,17 +67,17 @@ function saveAdhwords(req, resp) {
   let input = adhEntry(req, resp);
   if (!input.valid) return; 
 
-  fs.readFile(file, (err, data) => {
+  fs.readFile(FILE, (err, data) => {
     // if file doesn't exist, recreate
     if (err && err.code === "ENOENT") {
       let api = initialize(input);
-      return fs.writeFile(file, api, error => console.error);
+      return fs.writeFile(FILE, api, error => console.error);
     } else if (err) {
       console.error(err);
     } else {
       try {
         let update = updateAdhwords(data, input);
-        return fs.writeFile(file, update, msg => console.error);
+        return fs.writeFile(FILE, update, msg => console.error);
       } catch (e) {
         console.error(e);
       }
@@ -84,5 +85,9 @@ function saveAdhwords(req, resp) {
   });
 }
 
-module.exports = { saveAdhwords };
+async function loadAdhwords(req, resp) {  
+  return await fs.promises.readFile(FILE, 'UTF-8'); 
+}
+
+module.exports = { loadAdhwords, saveAdhwords };
 
