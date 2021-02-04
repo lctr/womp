@@ -13,7 +13,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f3f6f9;
-  margin-top: 40;
+  margin-top: 40px;
   font-size: 12px;
 }
 
@@ -80,13 +80,44 @@ button.violet-bg:hover {
   --bg-color: var(--red1);
 }
 
+.green1 {
+  --bg-color: var(--green1);
+}
+
+#pane-bar {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 3em; 
+  display: flex;
+  position: fixed; 
+  align-items: center; 
+  box-shadow: 0 0 5px #666;
+  backdrop-filter: blur(2px);
+  background-image: linear-gradient(rgba(67, 67, 67, 1), 10%, rgba(67, 67, 67, 0.85));
+}
+
+#pane-bar div {
+  color: #fff;
+  padding: 4px 4px; 
+}
+
+#active-panes {
+  margin-top: 3.75em; 
+  display: flex;
+  flex: 1 1 auto;
+  grid-gap: 0.75em;
+  align-items: start;
+}
+
 .pane-wrapper {
   display: grid;
-  margin-top: 10;
   position: relative;
   border-radius: 5px;
   border: 1px solid;
-  box-shadow: 0 5px 8px -5px rgba(40, 40, 55, 0.65)
+  box-shadow: 0 5px 8px -5px rgba(40, 40, 55, 0.65);
+  grid-template-rows: 25px 1fr; 
 }
 
 .pane-header {
@@ -148,10 +179,26 @@ a:hover {
 
 .pane-content {
   padding: 2px 4px;
+  max-width: 600px;
+  max-height: 86vh;
+  overflow: scroll;
   background-color: #f3f6f9;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
+
+table#lexicalEntries {
+  table-layout: fixed;
+  width: 99%; 
+  border-collapse: collapse;
+  border: none; 
+}
+
+th {
+  text-align: left;
+}
+
+
 
 .loading-content {
   text-align: center;

@@ -1,71 +1,23 @@
-
-const fs = require('fs');
+const path = require('path');
 const express = require('express');
 const app = express();
+const bodyParser = require('body-parser');
+const adhwords = require('./adhwords');
 const port = 3000;
 
-app.use(express.static(__dirname));
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
+app.get('/', (req, resp) => { resp.render('index'); });
 
 app.listen(port, (err) => {
   if (err) console.log(`Server-error! ${err}`);
   console.log('Server listening on port', port);
 });
 
-app.post('/updatelexicon', function (req, resp) {
-  console.log(req.body);
-  
-  let entry = 'testing'; // { adhwan, pos, english, notes };
-  let file = './adhwords.json';
+app.use(bodyParser.urlencoded({ extended: true }));
 
-  fs.readFile(file, (err, data) => {
-    // if file doesn't exist, err code = "ENOENT"
-    if (err && err.code === "ENOENT") {
-      // create file and complain
-      return fs.writeFile(file, JSON.stringify([entry], null, 2), error => console.error);
-    } else if (err) {
-      console.error(err);
-    } else {
-      // get JSON content
-      try {
-        // read, add, writes
-        const fileData = JSON.parse(data);
-        fileData.push(entry);
-        console.log(`added entry: ${entry}`);
-        return fs.writeFile(file, JSON.stringify(fileData), error => console.error);
-      } catch (exception) {
-        console.error(exception);
-      }
-    }
-  });
+app.post('/updatelexicon', function (req, resp) {
+  adhwords.saveAdhwords(req, resp);
+  resp.redirect('/');
 });
 
-app.listen()
-
-
-// const http = require('http');
-// const { parse } = require('querystring');
-
-// const server = http.createServer((req, resp) => {
-//   if (req.method === 'POST') {
-//     collectReqData(req, res => {
-//       console.log(res);
-//       res.end(`Parsed data for ${res.fname}`);
-//     });
-//   }
-// });
-
-// function collectReqData(req, cb) {
-//   const FORM_URLENCODED = 'application/x-www-form-urlencoded';
-
-//   if (req.headers['content-type'] === FORM_URLENCODED) {
-//     let body = '';
-//     req.on('data', chunk => {
-//       body += chunk.toString();
-//     });
-//     req.on('end', () => {
-//       cb(parse(body));
-//     });
-//   } else {
-//     cb(null);
-//   }
-// }

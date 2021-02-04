@@ -1,0 +1,28 @@
+include head.pug
+
+body 
+  
+  div.active-panes
+    div.pane-wrapper.blue1#lexicon
+      div.pane-header
+        div.pane-title
+        div.pane-message
+        div.pane-controls
+
+      div.pane-content
+        form(method='POST' action='/updatelexicon')
+          label(for='adhwan') Adhwan: 
+          input(name='adhwan')
+          br
+          label(for='pos') Part of Speech:
+          input(name='pos')
+          br
+          label(for='english') English: 
+          input(name='english') 
+          br 
+          label(for='notes') Notes: 
+          textarea(name='notes')
+          br
+          input(type='submit' value='click me!')
+
+

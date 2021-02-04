@@ -1,0 +1,20 @@
+{
+  "description": "Adhwords -- a simple adhwan dictionary",
+  "wordCount": 0,
+  "history": {
+    "created": "Thu, 04 Feb 2021 00:50:11 GMT",
+    "modified": "Thu, 04 Feb 2021 00:50:11 GMT",
+    "recentAddition": {
+      "adhwan": "mys",
+      "pos": "verb",
+      "english": "to see"
+    }
+  },
+  "lexicon": [
+    {
+      "adhwan": "mys",
+      "pos": "verb",
+      "english": "to see"
+    }
+  ]
+}
