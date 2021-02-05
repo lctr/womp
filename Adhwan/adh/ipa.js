@@ -1,5 +1,6 @@
-// TODO: move over to script.html file 
-function ipa(str = '') {
+
+
+function transcribe(str = '') {
   let word = str.trim().toLowerCase();
   return word.replace(/mg|((m)(?=[cg]))/g, '\u0303ɰ\u0303')
     .replace(/([aeouy])in([^aeiouwy])/g, '$1nh$2')
