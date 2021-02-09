@@ -1,0 +1,46 @@
+{
+  "description": "Adhwords -- a simple adhwan dictionary",
+  "wordCount": 5,
+  "history": {
+    "created": "Thu, 04 Feb 2021 00:50:11 GMT",
+    "modified": "Fri, 05 Feb 2021 03:16:33 GMT",
+    "recentAddition": {
+      "adhwan": "ceppa",
+      "pos": "noun",
+      "english": "door",
+      "notes": ""
+    }
+  },
+  "lexicon": [
+    {
+      "adhwan": "mys",
+      "pos": "verb",
+      "english": "to see",
+      "notes": ""
+    },
+    {
+      "adhwan": "mimha",
+      "pos": "noun",
+      "english": "cat",
+      "notes": ""
+    },
+    {
+      "adhwan": "swidh",
+      "pos": "verb",
+      "english": "to sleep",
+      "notes": "generally interpreted as 'to be asleep'"
+    },
+    {
+      "adhwan": "aphcra",
+      "pos": "noun",
+      "english": "apple",
+      "notes": ""
+    },
+    {
+      "adhwan": "ceppa",
+      "pos": "noun",
+      "english": "door",
+      "notes": ""
+    }
+  ]
+}

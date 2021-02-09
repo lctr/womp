@@ -1,0 +1,27 @@
+
+div.pane-content
+    form(method='POST' action='/updatelexicon')
+      div 
+        label(for='adhwan') Adhwan: 
+        input(name='adhwan' autocomplete='off')
+      div
+        label(for='pos') Part of Speech:
+        //- input(name='pos')
+        select(name='pos')
+          each pos in ['noun', 'verb', 'adjective', 'adverb', 'affix', 'misc.']
+            option(value=pos)= pos
+          
+      div
+        label(for='english') English: 
+        input(name='english' autocomplete='off') 
+      div 
+        label(for='notes') Notes: 
+        textarea(name='notes')
+      section 
+        p
+          span#adhword-ipa |
+          span#adhword-pos |
+          span#adhword-english |
+          span#adhword-notes
+      div(style='text-align: right;')
+        input(type='submit' value='Save')
