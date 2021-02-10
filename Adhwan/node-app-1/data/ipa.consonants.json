@@ -1,0 +1,982 @@
+[
+  {
+    "phone": "m̥",
+    "voice": "voiced",
+    "place": "bi­labial",
+    "manner": "nasal",
+    "desc": "voiced bi­labial nasal"
+  },
+  {
+    "phone": "m",
+    "voice": "voiceless",
+    "place": "bi­labial",
+    "manner": "nasal",
+    "desc": "voiceless bi­labial nasal"
+  },
+  {
+    "phone": "ɱ",
+    "voice": "voiceless",
+    "place": "labio­dental",
+    "manner": "nasal",
+    "desc": "voiceless labio­dental nasal"
+  },
+  {
+    "phone": "n̼",
+    "voice": "voiceless",
+    "place": "linguo­labial",
+    "manner": "nasal",
+    "desc": "voiceless linguo­labial nasal"
+  },
+  {
+    "phone": "n̥",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "nasal",
+    "desc": "voiced alveolar nasal"
+  },
+  {
+    "phone": "n",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "nasal",
+    "desc": "voiceless alveolar nasal"
+  },
+  {
+    "phone": "ɳ̊",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "nasal",
+    "desc": "voiced retro­flex nasal"
+  },
+  {
+    "phone": "ɳ",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "nasal",
+    "desc": "voiceless retro­flex nasal"
+  },
+  {
+    "phone": "ɲ̊",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "nasal",
+    "desc": "voiced palatal nasal"
+  },
+  {
+    "phone": "ɲ",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "nasal",
+    "desc": "voiceless palatal nasal"
+  },
+  {
+    "phone": "ŋ̊",
+    "voice": "voiced",
+    "place": "velar",
+    "manner": "nasal",
+    "desc": "voiced velar nasal"
+  },
+  {
+    "phone": "ŋ",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "nasal",
+    "desc": "voiceless velar nasal"
+  },
+  {
+    "phone": "ɴ",
+    "voice": "voiceless",
+    "place": "uvular",
+    "manner": "nasal",
+    "desc": "voiceless uvular nasal"
+  },
+  {
+    "phone": "p",
+    "voice": "voiced",
+    "place": "bi­labial",
+    "manner": "plosive",
+    "desc": "voiced bi­labial plosive"
+  },
+  {
+    "phone": "b",
+    "voice": "voiceless",
+    "place": "bi­labial",
+    "manner": "plosive",
+    "desc": "voiceless bi­labial plosive"
+  },
+  {
+    "phone": "p̪",
+    "voice": "voiced",
+    "place": "labio­dental",
+    "manner": "plosive",
+    "desc": "voiced labio­dental plosive"
+  },
+  {
+    "phone": "b̪",
+    "voice": "voiceless",
+    "place": "labio­dental",
+    "manner": "plosive",
+    "desc": "voiceless labio­dental plosive"
+  },
+  {
+    "phone": "t̼",
+    "voice": "voiced",
+    "place": "linguo­labial",
+    "manner": "plosive",
+    "desc": "voiced linguo­labial plosive"
+  },
+  {
+    "phone": "d̼",
+    "voice": "voiceless",
+    "place": "linguo­labial",
+    "manner": "plosive",
+    "desc": "voiceless linguo­labial plosive"
+  },
+  {
+    "phone": "t",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "plosive",
+    "desc": "voiced alveolar plosive"
+  },
+  {
+    "phone": "d",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "plosive",
+    "desc": "voiceless alveolar plosive"
+  },
+  {
+    "phone": "ʈ",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "plosive",
+    "desc": "voiced retro­flex plosive"
+  },
+  {
+    "phone": "ɖ",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "plosive",
+    "desc": "voiceless retro­flex plosive"
+  },
+  {
+    "phone": "c",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "plosive",
+    "desc": "voiced palatal plosive"
+  },
+  {
+    "phone": "ɟ",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "plosive",
+    "desc": "voiceless palatal plosive"
+  },
+  {
+    "phone": "k",
+    "voice": "voiced",
+    "place": "velar",
+    "manner": "plosive",
+    "desc": "voiced velar plosive"
+  },
+  {
+    "phone": "ɡ",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "plosive",
+    "desc": "voiceless velar plosive"
+  },
+  {
+    "phone": "q",
+    "voice": "voiced",
+    "place": "uvular",
+    "manner": "plosive",
+    "desc": "voiced uvular plosive"
+  },
+  {
+    "phone": "ɢ",
+    "voice": "voiceless",
+    "place": "uvular",
+    "manner": "plosive",
+    "desc": "voiceless uvular plosive"
+  },
+  {
+    "phone": "ʡ",
+    "voice": "voiced",
+    "place": "pharyn­geal/epi­glottal",
+    "manner": "plosive",
+    "desc": "voiced pharyn­geal/epi­glottal plosive"
+  },
+  {
+    "phone": "ʔ",
+    "voice": "voiced",
+    "place": "glottal",
+    "manner": "plosive",
+    "desc": "voiced glottal plosive"
+  },
+  {
+    "phone": "ts",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "sibilant affricate",
+    "desc": "voiced alveolar sibilant affricate"
+  },
+  {
+    "phone": "dz",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "sibilant affricate",
+    "desc": "voiceless alveolar sibilant affricate"
+  },
+  {
+    "phone": "t̠ʃ",
+    "voice": "voiced",
+    "place": "post­alveolar",
+    "manner": "sibilant affricate",
+    "desc": "voiced post­alveolar sibilant affricate"
+  },
+  {
+    "phone": "d̠ʒ",
+    "voice": "voiceless",
+    "place": "post­alveolar",
+    "manner": "sibilant affricate",
+    "desc": "voiceless post­alveolar sibilant affricate"
+  },
+  {
+    "phone": "ʈʂ",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "sibilant affricate",
+    "desc": "voiced retro­flex sibilant affricate"
+  },
+  {
+    "phone": "ɖʐ",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "sibilant affricate",
+    "desc": "voiceless retro­flex sibilant affricate"
+  },
+  {
+    "phone": "tɕ",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "sibilant affricate",
+    "desc": "voiced palatal sibilant affricate"
+  },
+  {
+    "phone": "dʑ",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "sibilant affricate",
+    "desc": "voiceless palatal sibilant affricate"
+  },
+  {
+    "phone": "pɸ",
+    "voice": "voiced",
+    "place": "bi­labial",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced bi­labial nonsibilant affricate"
+  },
+  {
+    "phone": "bβ",
+    "voice": "voiceless",
+    "place": "bi­labial",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless bi­labial nonsibilant affricate"
+  },
+  {
+    "phone": "p̪f",
+    "voice": "voiced",
+    "place": "labio­dental",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced labio­dental nonsibilant affricate"
+  },
+  {
+    "phone": "b̪v",
+    "voice": "voiceless",
+    "place": "labio­dental",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless labio­dental nonsibilant affricate"
+  },
+  {
+    "phone": "t̪θ",
+    "voice": "voiced",
+    "place": "dental",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced dental nonsibilant affricate"
+  },
+  {
+    "phone": "d̪ð",
+    "voice": "voiceless",
+    "place": "dental",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless dental nonsibilant affricate"
+  },
+  {
+    "phone": "tɹ̝̊",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced alveolar nonsibilant affricate"
+  },
+  {
+    "phone": "dɹ̝",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless alveolar nonsibilant affricate"
+  },
+  {
+    "phone": "t̠ɹ̠̊˔",
+    "voice": "voiced",
+    "place": "post­alveolar",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced post­alveolar nonsibilant affricate"
+  },
+  {
+    "phone": "d̠ɹ̠˔",
+    "voice": "voiceless",
+    "place": "post­alveolar",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless post­alveolar nonsibilant affricate"
+  },
+  {
+    "phone": "cç",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced palatal nonsibilant affricate"
+  },
+  {
+    "phone": "ɟʝ",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless palatal nonsibilant affricate"
+  },
+  {
+    "phone": "kx",
+    "voice": "voiced",
+    "place": "velar",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced velar nonsibilant affricate"
+  },
+  {
+    "phone": "ɡɣ",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless velar nonsibilant affricate"
+  },
+  {
+    "phone": "qχ",
+    "voice": "voiced",
+    "place": "uvular",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced uvular nonsibilant affricate"
+  },
+  {
+    "phone": "ɢʁ",
+    "voice": "voiceless",
+    "place": "uvular",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless uvular nonsibilant affricate"
+  },
+  {
+    "phone": "ʡʢ",
+    "voice": "voiceless",
+    "place": "pharyn­geal/epi­glottal",
+    "manner": "nonsibilant affricate",
+    "desc": "voiceless pharyn­geal/epi­glottal nonsibilant affricate"
+  },
+  {
+    "phone": "ʔh",
+    "voice": "voiced",
+    "place": "glottal",
+    "manner": "nonsibilant affricate",
+    "desc": "voiced glottal nonsibilant affricate"
+  },
+  {
+    "phone": "s",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "sibilant fricative",
+    "desc": "voiced alveolar sibilant fricative"
+  },
+  {
+    "phone": "z",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "sibilant fricative",
+    "desc": "voiceless alveolar sibilant fricative"
+  },
+  {
+    "phone": "ʃ",
+    "voice": "voiced",
+    "place": "post­alveolar",
+    "manner": "sibilant fricative",
+    "desc": "voiced post­alveolar sibilant fricative"
+  },
+  {
+    "phone": "ʒ",
+    "voice": "voiceless",
+    "place": "post­alveolar",
+    "manner": "sibilant fricative",
+    "desc": "voiceless post­alveolar sibilant fricative"
+  },
+  {
+    "phone": "ʂ",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "sibilant fricative",
+    "desc": "voiced retro­flex sibilant fricative"
+  },
+  {
+    "phone": "ʐ",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "sibilant fricative",
+    "desc": "voiceless retro­flex sibilant fricative"
+  },
+  {
+    "phone": "ɕ",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "sibilant fricative",
+    "desc": "voiced palatal sibilant fricative"
+  },
+  {
+    "phone": "ʑ",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "sibilant fricative",
+    "desc": "voiceless palatal sibilant fricative"
+  },
+  {
+    "phone": "ɸ",
+    "voice": "voiced",
+    "place": "bi­labial",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced bi­labial nonsibilant fricative"
+  },
+  {
+    "phone": "β",
+    "voice": "voiceless",
+    "place": "bi­labial",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless bi­labial nonsibilant fricative"
+  },
+  {
+    "phone": "f",
+    "voice": "voiced",
+    "place": "labio­dental",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced labio­dental nonsibilant fricative"
+  },
+  {
+    "phone": "v",
+    "voice": "voiceless",
+    "place": "labio­dental",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless labio­dental nonsibilant fricative"
+  },
+  {
+    "phone": "θ̼",
+    "voice": "voiced",
+    "place": "linguo­labial",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced linguo­labial nonsibilant fricative"
+  },
+  {
+    "phone": "ð̼",
+    "voice": "voiceless",
+    "place": "linguo­labial",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless linguo­labial nonsibilant fricative"
+  },
+  {
+    "phone": "θ",
+    "voice": "voiced",
+    "place": "dental",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced dental nonsibilant fricative"
+  },
+  {
+    "phone": "ð",
+    "voice": "voiceless",
+    "place": "dental",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless dental nonsibilant fricative"
+  },
+  {
+    "phone": "θ̠",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced alveolar nonsibilant fricative"
+  },
+  {
+    "phone": "ð̠",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless alveolar nonsibilant fricative"
+  },
+  {
+    "phone": "ɹ̠̊˔",
+    "voice": "voiced",
+    "place": "post­alveolar",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced post­alveolar nonsibilant fricative"
+  },
+  {
+    "phone": "ɹ̠˔",
+    "voice": "voiceless",
+    "place": "post­alveolar",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless post­alveolar nonsibilant fricative"
+  },
+  {
+    "phone": "ɻ˔",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless retro­flex nonsibilant fricative"
+  },
+  {
+    "phone": "ç",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced palatal nonsibilant fricative"
+  },
+  {
+    "phone": "ʝ",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless palatal nonsibilant fricative"
+  },
+  {
+    "phone": "x",
+    "voice": "voiced",
+    "place": "velar",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced velar nonsibilant fricative"
+  },
+  {
+    "phone": "ɣ",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless velar nonsibilant fricative"
+  },
+  {
+    "phone": "χ",
+    "voice": "voiced",
+    "place": "uvular",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced uvular nonsibilant fricative"
+  },
+  {
+    "phone": "ʁ",
+    "voice": "voiceless",
+    "place": "uvular",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless uvular nonsibilant fricative"
+  },
+  {
+    "phone": "ħ",
+    "voice": "voiced",
+    "place": "pharyn­geal/epi­glottal",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced pharyn­geal/epi­glottal nonsibilant fricative"
+  },
+  {
+    "phone": "ʕ",
+    "voice": "voiceless",
+    "place": "pharyn­geal/epi­glottal",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless pharyn­geal/epi­glottal nonsibilant fricative"
+  },
+  {
+    "phone": "h",
+    "voice": "voiced",
+    "place": "glottal",
+    "manner": "nonsibilant fricative",
+    "desc": "voiced glottal nonsibilant fricative"
+  },
+  {
+    "phone": "ɦ",
+    "voice": "voiceless",
+    "place": "glottal",
+    "manner": "nonsibilant fricative",
+    "desc": "voiceless glottal nonsibilant fricative"
+  },
+  {
+    "phone": "ʋ",
+    "voice": "voiceless",
+    "place": "labio­dental",
+    "manner": "approximant",
+    "desc": "voiceless labio­dental approximant"
+  },
+  {
+    "phone": "ɹ",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "approximant",
+    "desc": "voiceless alveolar approximant"
+  },
+  {
+    "phone": "ɻ",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "approximant",
+    "desc": "voiceless retro­flex approximant"
+  },
+  {
+    "phone": "j",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "approximant",
+    "desc": "voiceless palatal approximant"
+  },
+  {
+    "phone": "ɰ",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "approximant",
+    "desc": "voiceless velar approximant"
+  },
+  {
+    "phone": "ʔ̞",
+    "voice": "voiceless",
+    "place": "glottal",
+    "manner": "approximant",
+    "desc": "voiceless glottal approximant"
+  },
+  {
+    "phone": "ⱱ̟",
+    "voice": "voiceless",
+    "place": "bi­labial",
+    "manner": "tap/flap",
+    "desc": "voiceless bi­labial tap/flap"
+  },
+  {
+    "phone": "ⱱ",
+    "voice": "voiceless",
+    "place": "labio­dental",
+    "manner": "tap/flap",
+    "desc": "voiceless labio­dental tap/flap"
+  },
+  {
+    "phone": "ɾ̼",
+    "voice": "voiceless",
+    "place": "linguo­labial",
+    "manner": "tap/flap",
+    "desc": "voiceless linguo­labial tap/flap"
+  },
+  {
+    "phone": "ɾ̥",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "tap/flap",
+    "desc": "voiced alveolar tap/flap"
+  },
+  {
+    "phone": "ɾ",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "tap/flap",
+    "desc": "voiceless alveolar tap/flap"
+  },
+  {
+    "phone": "ɽ̊",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "tap/flap",
+    "desc": "voiced retro­flex tap/flap"
+  },
+  {
+    "phone": "ɽ",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "tap/flap",
+    "desc": "voiceless retro­flex tap/flap"
+  },
+  {
+    "phone": "ɢ̆",
+    "voice": "voiceless",
+    "place": "uvular",
+    "manner": "tap/flap",
+    "desc": "voiceless uvular tap/flap"
+  },
+  {
+    "phone": "ʡ̆",
+    "voice": "voiceless",
+    "place": "pharyn­geal/epi­glottal",
+    "manner": "tap/flap",
+    "desc": "voiceless pharyn­geal/epi­glottal tap/flap"
+  },
+  {
+    "phone": "ʙ̥",
+    "voice": "voiced",
+    "place": "bi­labial",
+    "manner": "trill",
+    "desc": "voiced bi­labial trill"
+  },
+  {
+    "phone": "ʙ",
+    "voice": "voiceless",
+    "place": "bi­labial",
+    "manner": "trill",
+    "desc": "voiceless bi­labial trill"
+  },
+  {
+    "phone": "r̥",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "trill",
+    "desc": "voiced alveolar trill"
+  },
+  {
+    "phone": "r",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "trill",
+    "desc": "voiceless alveolar trill"
+  },
+  {
+    "phone": "ɽ̊r̥",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "trill",
+    "desc": "voiced retro­flex trill"
+  },
+  {
+    "phone": "ɽr",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "trill",
+    "desc": "voiceless retro­flex trill"
+  },
+  {
+    "phone": "ʀ̥",
+    "voice": "voiced",
+    "place": "uvular",
+    "manner": "trill",
+    "desc": "voiced uvular trill"
+  },
+  {
+    "phone": "ʀ",
+    "voice": "voiceless",
+    "place": "uvular",
+    "manner": "trill",
+    "desc": "voiceless uvular trill"
+  },
+  {
+    "phone": "ʜ",
+    "voice": "voiced",
+    "place": "pharyn­geal/epi­glottal",
+    "manner": "trill",
+    "desc": "voiced pharyn­geal/epi­glottal trill"
+  },
+  {
+    "phone": "ʢ",
+    "voice": "voiceless",
+    "place": "pharyn­geal/epi­glottal",
+    "manner": "trill",
+    "desc": "voiceless pharyn­geal/epi­glottal trill"
+  },
+  {
+    "phone": "tɬ",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "lateral affricate",
+    "desc": "voiced alveolar lateral affricate"
+  },
+  {
+    "phone": "dɮ",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "lateral affricate",
+    "desc": "voiceless alveolar lateral affricate"
+  },
+  {
+    "phone": "ʈɭ̊˔",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "lateral affricate",
+    "desc": "voiced retro­flex lateral affricate"
+  },
+  {
+    "phone": "ɖɭ˔",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "lateral affricate",
+    "desc": "voiceless retro­flex lateral affricate"
+  },
+  {
+    "phone": "cʎ̝̊",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "lateral affricate",
+    "desc": "voiced palatal lateral affricate"
+  },
+  {
+    "phone": "ɟʎ̝",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "lateral affricate",
+    "desc": "voiceless palatal lateral affricate"
+  },
+  {
+    "phone": "kʟ̝̊",
+    "voice": "voiced",
+    "place": "velar",
+    "manner": "lateral affricate",
+    "desc": "voiced velar lateral affricate"
+  },
+  {
+    "phone": "ɡʟ̝",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "lateral affricate",
+    "desc": "voiceless velar lateral affricate"
+  },
+  {
+    "phone": "ɬ",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "lateral fricative",
+    "desc": "voiced alveolar lateral fricative"
+  },
+  {
+    "phone": "ɮ",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "lateral fricative",
+    "desc": "voiceless alveolar lateral fricative"
+  },
+  {
+    "phone": "ɭ̊˔",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "lateral fricative",
+    "desc": "voiced retro­flex lateral fricative"
+  },
+  {
+    "phone": "ɭ˔",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "lateral fricative",
+    "desc": "voiceless retro­flex lateral fricative"
+  },
+  {
+    "phone": "ʎ̝̊",
+    "voice": "voiced",
+    "place": "palatal",
+    "manner": "lateral fricative",
+    "desc": "voiced palatal lateral fricative"
+  },
+  {
+    "phone": "ʎ̝",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "lateral fricative",
+    "desc": "voiceless palatal lateral fricative"
+  },
+  {
+    "phone": "ʟ̝̊",
+    "voice": "voiced",
+    "place": "velar",
+    "manner": "lateral fricative",
+    "desc": "voiced velar lateral fricative"
+  },
+  {
+    "phone": "ʟ̝",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "lateral fricative",
+    "desc": "voiceless velar lateral fricative"
+  },
+  {
+    "phone": "l",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "lateral approximant",
+    "desc": "voiceless alveolar lateral approximant"
+  },
+  {
+    "phone": "ɭ",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "lateral approximant",
+    "desc": "voiceless retro­flex lateral approximant"
+  },
+  {
+    "phone": "ʎ",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "lateral approximant",
+    "desc": "voiceless palatal lateral approximant"
+  },
+  {
+    "phone": "ʟ",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "lateral approximant",
+    "desc": "voiceless velar lateral approximant"
+  },
+  {
+    "phone": "ʟ̠",
+    "voice": "voiceless",
+    "place": "uvular",
+    "manner": "lateral approximant",
+    "desc": "voiceless uvular lateral approximant"
+  },
+  {
+    "phone": "ɺ̥",
+    "voice": "voiced",
+    "place": "alveolar",
+    "manner": "lateral tap/flap",
+    "desc": "voiced alveolar lateral tap/flap"
+  },
+  {
+    "phone": "ɺ",
+    "voice": "voiceless",
+    "place": "alveolar",
+    "manner": "lateral tap/flap",
+    "desc": "voiceless alveolar lateral tap/flap"
+  },
+  {
+    "phone": "ɭ̥̆",
+    "voice": "voiced",
+    "place": "retro­flex",
+    "manner": "lateral tap/flap",
+    "desc": "voiced retro­flex lateral tap/flap"
+  },
+  {
+    "phone": "ɭ̆",
+    "voice": "voiceless",
+    "place": "retro­flex",
+    "manner": "lateral tap/flap",
+    "desc": "voiceless retro­flex lateral tap/flap"
+  },
+  {
+    "phone": "ʎ̆",
+    "voice": "voiceless",
+    "place": "palatal",
+    "manner": "lateral tap/flap",
+    "desc": "voiceless palatal lateral tap/flap"
+  },
+  {
+    "phone": "ʟ̆",
+    "voice": "voiceless",
+    "place": "velar",
+    "manner": "lateral tap/flap",
+    "desc": "voiceless velar lateral tap/flap"
+  }
+]
